@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Header from '../components/Header';
 
 
 export default function Home() {
@@ -9,7 +9,17 @@ export default function Home() {
         <title>Facebook</title>
       </Head>
 
-     <h1> The Start </h1>
+   
+    {/* Header */}
+      <Header />
+
+    <main>
+      {/* Sidebar */}
+      {/* Feed */}
+      {/* Icons/Widgets */}
+    </main>
+
+
     </div>
-  )
+  );
 }
