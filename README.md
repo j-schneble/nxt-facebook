@@ -1,9 +1,8 @@
 ## Recreating Facebook 
 
-Using Facebook login authentication, Nextjs, and Tailwind 
+Using Facebook login authentication, Firebase, Nextjs, and Tailwind 
 
-- Header Completed
-- Starting Login Authentication 
+Login Authentication and social aspect is complete, working on firebase storage.
 
 Install the neccesary project dependencies
 ```bash
