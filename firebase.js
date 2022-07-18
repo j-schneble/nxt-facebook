@@ -2,13 +2,12 @@ import firebase from "firebase";
 import "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA3oYv9VAlGSE5CjiGi54_qNVQLJjstYM8",
-    authDomain: "js-social-c2bcc.firebaseapp.com",
-    projectId: "js-social-c2bcc",
-    storageBucket: "js-social-c2bcc.appspot.com",
-    messagingSenderId: "839079305265",
-    appId: "1:839079305265:web:25cbaa209778808fe4b510",
-    measurementId: "G-ZBKDR1D2EN"
+  apiKey: "AIzaSyCCnIkncYwOv8bIXpbppYlZ58ko8V6Umhc",
+  authDomain: "nxtjs-fb.firebaseapp.com",
+  projectId: "nxtjs-fb",
+  storageBucket: "nxtjs-fb.appspot.com",
+  messagingSenderId: "514511324984",
+  appId: "1:514511324984:web:b0836110ded3a691dee3cd"
 };
 
 const app = !firebase.apps.length
