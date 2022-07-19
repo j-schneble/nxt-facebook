@@ -7,6 +7,7 @@ module.exports = {
       "platform-lookaside.fbsbx.com",
       "firebasestorage.googleapis.com",
       "gs://nxtjs-fb.appspot.com",
-      "scontent-mia3-1.xx.fbcdn.net" , ]
+      "scontent-mia3-1.xx.fbcdn.net" , 
+      "nxt-facebook.vercel.app"]
   },
 };
