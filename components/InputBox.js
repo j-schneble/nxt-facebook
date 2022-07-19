@@ -27,7 +27,7 @@ function InputBox() {
     }).then(doc => {
         if (imageToPost) {
           const uploadTask = storage
-          .ref(`posts/${doc.id}`)
+          .ref((`posts/${doc.id}`))
           .putString(imageToPost,'data_url')
             
         removeImage();
@@ -101,7 +101,7 @@ function InputBox() {
             className="flex flex-col transition duration-150 transform cursor-pointer hover:brightness-110 hover:scale-105"
             onClick={removeImage}
           >
-            <img className="object-contain h-10" src={imageToPost} />
+            <img className="object-contain h-10" src={imageToPost} alt="ip" />
             <p className="text-xs text-center text-red-500">Remove</p>
           </div>
         )}

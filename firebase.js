@@ -16,6 +16,11 @@ const app = !firebase.apps.length
 
 const db = app.firestore();
 const storage = firebase.storage();
+const auth = firebase.auth();
+const provider = new firebase.auth.FacebookAuthProvider();
 
-export { db, storage };
+export { db, storage, auth, provider };
+
+{/* Check Firebase keys and check for another local env */}
+{/* Need logout data from fb inside */}
 
