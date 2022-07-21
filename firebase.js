@@ -21,6 +21,4 @@ const provider = new firebase.auth.FacebookAuthProvider();
 
 export { db, storage, auth, provider };
 
-{/* Check Firebase keys and check for another local env */}
-{/* Need logout data from fb inside */}
 
